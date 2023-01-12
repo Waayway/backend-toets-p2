@@ -12,7 +12,7 @@
     <?php
     require("connect.php");
 
-    $sql = "SELECT id, merk, model, topsnelheid, prijs FROM DureAuto ORDER BY prijs";
+    $sql = "SELECT id, merk, model, topsnelheid, prijs FROM DureAuto ORDER BY prijs DESC";
     ?>
     <table>
         <thead>
