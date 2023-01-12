@@ -32,7 +32,7 @@
                 echo "<td>" . $obj->model . "</td>";
                 echo "<td>" . $obj->topsnelheid . "</td>";
                 echo "<td>" . $obj->prijs . "</td>";
-                echo "<td><a href=\"delete.php?id=" . $obj->id "\">Delete</a></td>"
+                echo "<td><a href=\"delete.php?id=" . $obj->id . "\">Delete</a></td>";
                 echo "</tr>";
             }
             ?>
