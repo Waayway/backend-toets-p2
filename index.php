@@ -10,5 +10,15 @@
     <?php 
     require("connect.php");
     ?>
+    <form action="index.php" method="post">
+        <input type="text">
+        <label for=""></label>
+        <input type="text">
+        <label for=""></label>
+        <input type="text">
+        <label for=""></label>
+        <input type="text">
+        <label for=""></label>
+    </form>
 </body>
 </html>
