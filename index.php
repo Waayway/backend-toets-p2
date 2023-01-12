@@ -9,16 +9,20 @@
 <body>
     <?php 
     require("connect.php");
+    if (array_key_exists($_POST, "merk")) {
+        
+    }
     ?>
     <form action="index.php" method="post">
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
-        <input type="text">
-        <label for=""></label>
+        <label for="merk">Merk</label><br>
+        <input type="text" name="merk"><br>
+        <label for="model">Model</label><br>
+        <input type="text" name="model"><br>
+        <label for="topsnelheid">Topsnelheid</label><br>
+        <input type="text" name="topsnelheid"><br>
+        <label for="prijs">Prijs</label><br>
+        <input type="text" name="prijs"><br>
+        <button type="submit">Versturen</button>
     </form>
 </body>
 </html>
