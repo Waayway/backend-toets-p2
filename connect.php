@@ -19,7 +19,7 @@ $tables = array(
         merk        varchar(200),
         model       varchar(200),
         topsnelheid smallint(4),
-        prijs       varchar(200)  # prijs kan je beter als een Decimal doen.
+        prijs       bigint  # prijs kan je beter als een Decimal doen.
     );"
 );
 
